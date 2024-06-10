@@ -13,4 +13,7 @@
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
     <fullyQualifiedTypeName name="jakarta.persistence.GeneratedValue"/>
     <fullyQualifiedTypeName name="jakarta.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="br.com.udemy.repositories.PersonRepository"/>
+    <fullyQualifiedTypeName name="br.com.udemy.exceptions.ResourceNotFoundException"/>
 </qualifiedTypeNameHistroy>
