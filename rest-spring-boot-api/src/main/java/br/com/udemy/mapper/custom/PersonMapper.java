@@ -21,10 +21,11 @@ public class PersonMapper {
 		return vo;
 	}
 	
-	public PersonVOV2 convertVoToEntity(PersonVOV2 person) {
+	public Person convertVoToEntity(PersonVOV2 person) {
 		Person entity = new Person();
 		entity.setId(person.getId());
 		entity.setAddress(person.getAddress());
+		//entity.setBirthDay(new Date());
 		entity.setFirstName(person.getFirstName());
 		entity.setLastName(person.getLastName());
 		entity.setGender(person.getGender());

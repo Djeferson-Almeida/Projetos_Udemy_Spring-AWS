@@ -1,11 +1,10 @@
 package br.com.udemy.vo.v2;
 
+import java.io.Serializable;
 import java.util.Date;
 import java.util.Objects;
 
-import br.com.udemy.vo.v1.PersonVO;
-
-public class PersonVOV2 {
+public class PersonVOV2 implements Serializable{
 	
 
     private static final long serialVersionUID = 1L;
