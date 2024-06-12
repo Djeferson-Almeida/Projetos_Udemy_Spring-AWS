@@ -16,4 +16,6 @@
     <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
     <fullyQualifiedTypeName name="br.com.udemy.repositories.PersonRepository"/>
     <fullyQualifiedTypeName name="br.com.udemy.exceptions.ResourceNotFoundException"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>
