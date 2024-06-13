@@ -43,7 +43,6 @@ public class PersonServices {
 	
 	public PersonVO create(PersonVO person) {
 		logger.info("Creating one PersonVO!");
-		
 		var entity = ModelMapper.parseObject(person, Person.class);
 		var vo = ModelMapper.parseObject(repository.save(entity), PersonVO.class);
 		return vo;	

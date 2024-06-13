@@ -4,7 +4,6 @@
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
     <fullyQualifiedTypeName name="java.lang.Double"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
     <fullyQualifiedTypeName name="br.com.udemy.exceptions.UnsupportedMathOperationException"/>
     <fullyQualifiedTypeName name="java.util.logging.Logger"/>
@@ -18,4 +17,6 @@
     <fullyQualifiedTypeName name="br.com.udemy.exceptions.ResourceNotFoundException"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
     <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="br.com.udemy.mapper.ModelMapper"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
 </qualifiedTypeNameHistroy>

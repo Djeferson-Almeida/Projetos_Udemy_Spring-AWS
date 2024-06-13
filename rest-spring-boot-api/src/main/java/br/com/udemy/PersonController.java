@@ -36,9 +36,9 @@ public class PersonController {
 		return service.findById(id);
 	}
 
-	@PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
+	@PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE,
+			produces = MediaType.APPLICATION_JSON_VALUE)
 	public PersonVO create(@RequestBody PersonVO person) {
-
 		return service.create(person);
 	}
 
@@ -50,11 +50,17 @@ public class PersonController {
 	}
 	
 	@PutMapping(consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
+	public ResponseEntity<PersonVO> update(@RequestBody PersonVO person) {
+	    PersonVO updatedPerson = service.update(person);
+	    return ResponseEntity.ok(updatedPerson);
+	}
+	
+	/*@PutMapping(consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
 	public PersonVO update(@RequestBody PersonVO PersonVO) {
 
 		return service.create(PersonVO);
 	}
-
+	*/
 	@DeleteMapping(value = "/{id}")
 	public ResponseEntity<?> delete(@PathVariable(value = "id") Long id) {
         service.delete(id);
